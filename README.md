@@ -29,7 +29,7 @@
 >
 > **Spectral floor**: Δ_NS / width ≈ **0.6%** at all Reynolds numbers — independent of Re
 >
-> **11/11 falsifiable predictions verified** (9 confirmed, 1 not found, 1 partial → verified at N=16)
+> **11 falsifiable predictions tested (9 verified, 1 not observed, 1 scaling law confirmed)**
 
 ---
 
@@ -71,6 +71,30 @@
 </div>
 
 > **Left:** Yang-Mills vs Navier-Stokes — same spectral mechanism. Both exhibit KS ≈ 0.14 from level repulsion, producing mass gap (YM) and enstrophy bound (NS). **Right:** Proof chain from Leray existence through BGS to global regularity. Green = proved, orange = conditional, blue = computed.
+
+<div align="center">
+<img src="figures/ginibre_vs_symmetrised.png" alt="Ginibre vs Symmetrised Analysis" width="720">
+</div>
+
+> **Ginibre Discovery:** Non-symmetric Jacobian gives β≈3 (cubic repulsion), resolving the β≈1.9 mystery. Complex NN spacings fit far better than symmetrised analysis.
+
+<div align="center">
+<img src="figures/ginibre_scaling_law.png" alt="Kolmogorov-Ginibre Scaling Law" width="720">
+</div>
+
+> **Kolmogorov-Ginibre Scaling Law:** Im_rms = N^{5/2} · Re / (8π). Power law verified at N=8, 10, 12, 16 with constant ratio 0.040 ≈ 1/(8π).
+
+<div align="center">
+<img src="figures/spectral_floor.png" alt="Spectral Floor Measurement" width="720">
+</div>
+
+> **Spectral Floor Measurement:** Δ_NS/width ≈ 0.6% at all Reynolds numbers, independent of Re.
+
+<div align="center">
+<img src="figures/ns_verification_dashboard.png" alt="Verification Dashboard" width="720">
+</div>
+
+> **Verification Dashboard:** 9 of 11 falsifiable predictions verified. One prediction (clean Poisson-to-GUE transition) not observed.
 
 ---
 
@@ -171,6 +195,7 @@ This work is part of the **U₂₄ universality programme** — a unified mathem
 | **[U₂₄ Yang-Mills](https://github.com/OriginNeuralAI/u24-Yang-Mills)** | Yang-Mills Mass Gap | Δ > 0 for all compact simple G — Tr(J) = 24 = Ω | 59/59 |
 | **[U₂₄ P vs NP](https://github.com/OriginNeuralAI/u24-P-vs-NP)** | P ≠ NP | SOS ⟹ P ≠ NP — OGP 0.00%, n = 50,000 | 35/35 |
 | **[U₂₄ BSD Conjecture](https://github.com/OriginNeuralAI/u24-BSD-Conjecture)** | Birch and Swinnerton-Dyer | (A*) ⟹ BSD — 37a1 outlier, 11,500 dim | 13/13 |
+| **[U₂₄ Hodge Conjecture](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture)** | Hodge Conjecture | Hodge filtration via U₂₄ spectral operator | — |
 | **[The Unified Theory](https://github.com/OriginNeuralAI/The_Unified_Theory)** | Ω = 24 framework | 11 paths to 24, fine-structure constant, dark energy | 133/133 |
 
 **Cross-dependencies:**
