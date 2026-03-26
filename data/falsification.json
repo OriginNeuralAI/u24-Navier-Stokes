@@ -1,0 +1,121 @@
+[
+  {
+    "base_state": "turbulent",
+    "beta": 1.8697574635500744,
+    "ks_distance": 0.17717162153630905,
+    "reynolds": 50.0,
+    "u_rms": 7.957747154594766
+  },
+  {
+    "base_state": "laminar",
+    "beta": 0.0,
+    "ks_distance": 0.9853284428142715,
+    "reynolds": 50.0,
+    "u_rms": 0.10273407401024998
+  },
+  {
+    "base_state": "stokes",
+    "beta": 0.0,
+    "ks_distance": 0.9853284428142715,
+    "reynolds": 50.0,
+    "u_rms": 0.0
+  },
+  {
+    "base_state": "turbulent",
+    "beta": 1.9471060833284233,
+    "ks_distance": 0.17753501094267743,
+    "reynolds": 200.0,
+    "u_rms": 31.830988618379063
+  },
+  {
+    "base_state": "laminar",
+    "beta": 0.0,
+    "ks_distance": 0.9853284428142715,
+    "reynolds": 200.0,
+    "u_rms": 0.4109362960409999
+  },
+  {
+    "base_state": "stokes",
+    "beta": 0.0,
+    "ks_distance": 0.9853284428142715,
+    "reynolds": 200.0,
+    "u_rms": 0.0
+  },
+  {
+    "base_state": "turbulent",
+    "beta": 2.051097255439913,
+    "ks_distance": 0.17686463676487219,
+    "reynolds": 1000.0,
+    "u_rms": 159.1549430918954
+  },
+  {
+    "base_state": "laminar",
+    "beta": 0.0,
+    "ks_distance": 0.9853284428142715,
+    "reynolds": 1000.0,
+    "u_rms": 2.0546814802049993
+  },
+  {
+    "base_state": "stokes",
+    "beta": 0.0,
+    "ks_distance": 0.9853284428142715,
+    "reynolds": 1000.0,
+    "u_rms": 0.0
+  },
+  {
+    "beta": 1.9471060833284233,
+    "ks_distance": 0.17753501094267743,
+    "reynolds": 200.0,
+    "seed": 42,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.888101165303675,
+    "ks_distance": 0.17736225041062814,
+    "reynolds": 200.0,
+    "seed": 137,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.8484871406211942,
+    "ks_distance": 0.16410498188609812,
+    "reynolds": 200.0,
+    "seed": 271,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.8715261587109258,
+    "ks_distance": 0.2137499989392294,
+    "reynolds": 200.0,
+    "seed": 999,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.921915200691867,
+    "ks_distance": 0.19579176003054177,
+    "reynolds": 200.0,
+    "seed": 2024,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.8186923492805434,
+    "ks_distance": 0.16930824920587617,
+    "reynolds": 200.0,
+    "seed": 31415,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.8807416827423522,
+    "ks_distance": 0.16391615969539652,
+    "reynolds": 200.0,
+    "seed": 65537,
+    "test": "seed_variation"
+  },
+  {
+    "beta": 1.9248246635472805,
+    "ks_distance": 0.1656191584813168,
+    "reynolds": 200.0,
+    "seed": 100003,
+    "test": "seed_variation"
+  }
+]
