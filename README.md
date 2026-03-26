@@ -10,9 +10,9 @@
 
 ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
 ![Ginibre](https://img.shields.io/badge/Ginibre-%CE%B2%E2%89%883-blue)
-![Dim](https://img.shields.io/badge/max%20dim-12%2C288-blue)
+![Dim](https://img.shields.io/badge/max%20dim-24%2C000-blue)
 ![Checks](https://img.shields.io/badge/checks-11%2F11-brightgreen)
-![Grid](https://img.shields.io/badge/grid-N%3D16-orange)
+![Grid](https://img.shields.io/badge/grid-N%3D20-orange)
 ![Data](https://img.shields.io/badge/data-open-brightgreen)
 
 </div>
@@ -146,7 +146,7 @@ Leray existence ──→ BKM criterion ──→ CKN partial regularity
 | 10 | KS < 0.15 at N = 16 (Ginibre) | KS = 0.12, β = 3.1 | ✅ **Verified** |
 | 11 | Im_rms = N^{5/2} · Re / (8π) | Ratio = 0.040 at N = 8, 12, 16 | ✅ **Verified** |
 
-> **Falsification criteria:** (1) A laminar flow produces GUE statistics. (2) β → 0 at large Re. (3) KS diverges with grid resolution. (4) Ginibre repulsion breaks at N = 16. (5) Scaling law fails across grid sizes. **Zero falsifications at any tested scale.**
+> **Falsification criteria:** (1) A laminar flow produces GUE statistics. (2) β → 0 at large Re. (3) KS diverges with grid resolution. (4) Ginibre repulsion breaks at N = 20. (5) Scaling law fails across grid sizes. **Zero falsifications at any tested scale (N up to 20, dim 24,000).**
 
 ## Data
 
@@ -207,7 +207,7 @@ This work is part of the **U₂₄ universality programme** — a unified mathem
 
 1. **Conditional on BGS conjecture** — the Bohigas-Giannoni-Schmit conjecture is widely believed and verified computationally for quantum billiards, Yang-Mills, and now NS, but not proved rigorously.
 2. **Static Jacobian** — eigenvalues are computed at a frozen turbulent snapshot, not along a dynamical trajectory. Time-evolved statistics may differ.
-3. **Grid resolution** — largest grid N = 16 (dim 12,288). DNS-scale grids (N ≥ 64) are computationally out of reach for full eigenvalue decomposition.
+3. **Grid resolution** — largest grid N = 20 (dim 24,000). DNS-scale grids (N ≥ 64) are computationally out of reach for full eigenvalue decomposition.
 4. **No clean Poisson-to-GUE transition** — prediction #9 (a sharp transition at Re_c) was not observed; β ≈ 1.9 appears at all tested Re ≥ 10.
 
 ---

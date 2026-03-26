@@ -51,7 +51,7 @@ The BGS conjecture (Bohigas-Giannoni-Schmit) states that classically chaotic sys
 2. Level repulsion: β ≈ 2.3-4.0 (Ginibre cubic P(s) ~ s³)
 3. Genuinely complex eigenvalues with Im range ~ O(Re)
 
-> *Status:* **COMPUTATIONAL** — verified at N = 8, 10, 12, 16 (dim up to 12,288)
+> *Status:* **COMPUTATIONAL** — verified at N = 8, 10, 12, 16, 20 (dim up to 24,000)
 
 **Theorem 8 (Kolmogorov-Ginibre scaling law).** The RMS imaginary extent obeys:
 
@@ -61,7 +61,7 @@ Im_rms = N^{5/2} · Re / (8π)
 
 The ratio Im_rms / (N^{5/2} · Re) = 0.040 is constant across all tested grid sizes and Reynolds numbers. The exponent 5/2 connects to K41 scaling: amplitude ~ k^{-5/6} combined with the k^{-5/3} energy spectrum gives 5/6 + 5/3 = 5/2.
 
-> *Status:* **COMPUTATIONAL** — verified at N = 8, 12, 16
+> *Status:* **COMPUTATIONAL** — verified at N = 8, 10, 12, 16, 20 (5 grid sizes)
 
 ---
 
@@ -69,7 +69,7 @@ The ratio Im_rms / (N^{5/2} · Re) = 0.040 is constant across all tested grid si
 
 | Metric | Value |
 |--------|-------|
-| Max grid | N = 16 (dim 12,288) |
+| Max grid | N = 20 (dim 24,000) |
 | Best KS (symmetrised) | **0.146** (N = 10, Re = 50) |
 | Best KS (Ginibre) | **0.092** (N = 8, Re = 50) |
 | β range (symmetrised) | 1.71-2.05 |
@@ -97,7 +97,7 @@ The ratio Im_rms / (N^{5/2} · Re) = 0.040 is constant across all tested grid si
 | 7 | Seed-stable | σ(β) < 0.1 | ✅ Verified |
 | 8 | Non-symmetric J → Ginibre | β ≈ 3, KS ≈ 0.09 | ✅ Verified |
 | 9 | Poisson-to-GUE transition at Re_c | Not observed | ❌ Not found |
-| 10 | KS < 0.15 at N = 16 | KS = 0.12, β = 3.1 | ✅ Verified |
+| 10 | KS < 0.15 at N = 16+ | KS = 0.12 (N=16), 0.12 (N=20) | ✅ Verified |
 | 11 | Im_rms = N^{5/2} · Re / (8π) | Ratio = 0.040 | ✅ Verified |
 
 ---
