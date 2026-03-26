@@ -35,9 +35,9 @@
 
 ## Paper
 
-| Paper | Description | LaTeX |
-|-------|-------------|-------|
-| **Navier-Stokes Global Regularity via the U₂₄ Spectral Floor** | 665 lines, 8 theorems, 12 references, 6 figures | [LaTeX](papers/Navier_Stokes_via_Spectral_Cascade.tex) |
+| Paper | Description | PDF | LaTeX |
+|-------|-------------|-----|-------|
+| **Navier-Stokes Global Regularity via the U₂₄ Spectral Floor** | 665 lines, 8 theorems, 12 references, 9 figures | [PDF](papers/Navier_Stokes_via_Spectral_Cascade.pdf) | [LaTeX](papers/Navier_Stokes_via_Spectral_Cascade.tex) |
 
 ## Visual Summary
 
